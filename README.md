@@ -2,9 +2,9 @@
 
 This repository contains a simple notes app created using Flask, Jinja, HTML and SQLAlchemy. The app allows users to:
 
-   Create accounts
-   Log in
-   Create and delete multiple notes
+      Create accounts
+      Log in
+      Create and delete multiple notes
 
 ## Project Structure
 

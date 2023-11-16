@@ -3,9 +3,9 @@
 This repository contains a simple notes app created using Flask, Jinja, HTML, and SQLAlchemy. It enables users to manage their notes with ease.
 ## Features
 
-    User registration and login
-    Create and delete multiple notes
-    Store notes securely in a database
+    1. User registration and login
+    2. Create and delete multiple notes
+    3. Store notes securely in a database
 
 ## Project Structure
 

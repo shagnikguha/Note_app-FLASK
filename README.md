@@ -18,11 +18,11 @@ This repository contains a simple notes app created using Flask, Jinja, HTML, an
     - __init__.py: Brings all the Python files together to set up the Flask application, which is later executed via main.py.
 
 - **website/static folder:**
-    - index.js: JavaScript file responsible for allowing users to delete created notes.
+     - index.js: JavaScript file responsible for allowing users to delete created notes.
 
 - **website/templates folder:**
-    - base.html: Acts as a template for other HTML files. Utilizes Jinja to interact with Flask.
-    - Other HTML files: Each file represents a page of the website and extends the base.html template.
+     - base.html: Acts as a template for other HTML files. Utilizes Jinja to interact with Flask.
+     - Other HTML files: Each file represents a page of the website and extends the base.html template.
 
 ## Installation and Usage
 

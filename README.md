@@ -33,22 +33,8 @@ This repository contains a simple notes app created using Flask, Jinja, HTML, an
 
         git clone https://github.com/your-username/Note_app-FLASK.git
 
-Navigate to the project directory:
+  ###   Running the code:
+  
+        python3 main.py
 
-bash
-
-cd Note_app-FLASK
-
-Install dependencies:
-
-bash
-
-pipenv install
-
-Run the application:
-
-bash
-
-    pipenv run flask run
-
-Use the code with caution. Learn more.
+        Insure that you are in the proper working directory

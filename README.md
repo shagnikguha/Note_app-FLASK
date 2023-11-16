@@ -1,10 +1,10 @@
-Note_app-FLASK
+# Note_app-FLASK
 
 This repository contains a simple notes app created using Flask and Jinja. The app allows users to:
 
-    Create accounts
-    Log in
-    Create and delete multiple notes
+   ### Create accounts
+   ### Log in
+   ### Create and delete multiple notes
 
 Project Structure
 

@@ -35,3 +35,10 @@ This repository contains a simple notes app created using Flask, Jinja, HTML, an
         python3 main.py
 
   Ensure that you are in the proper working directory when running these commands.
+
+## Demo:
+
+https://github.com/shagnikguha/Note_app-FLASK/assets/125911642/106fcf65-531b-4f4e-be4a-780a37fc7fa4
+
+
+  

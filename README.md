@@ -1,12 +1,12 @@
 # Note_app-FLASK
 
-This repository contains a simple notes app created using Flask and Jinja. The app allows users to:
+This repository contains a simple notes app created using Flask, Jinja, HTML and SQLAlchemy. The app allows users to:
 
-   ### Create accounts
-   ### Log in
-   ### Create and delete multiple notes
+   Create accounts
+   Log in
+   Create and delete multiple notes
 
-Project Structure
+## Project Structure
 
     main.py: Entry point for the application. Run this file to start the website.
 
@@ -20,22 +20,21 @@ Project Structure
 
         __init__.py: Brings all the Python files together to set up the Flask application, which is later executed via main.py.
 
-    static folder:
-        index.js: JavaScript file responsible for allowing users to delete created notes.
+        static folder:
+            index.js: JavaScript file responsible for allowing users to delete created notes.
 
-    template folder:
+        template folder:
 
-        base.html: Acts as a template for other HTML files. Utilizes Jinja to interact with Flask.
+            base.html: Acts as a template for other HTML files. Utilizes Jinja to interact with Flask.
 
-        Other HTML files: Each file represents a page of the website and extends the base.html template.
+            Other HTML files: Each file represents a page of the website and extends the base.html template.
 
 How to Run
 
     Clone the repository:
 
-    bash
 
-git clone https://github.com/your-username/Note_app-FLASK.git
+`git clone https://github.com/your-username/Note_app-FLASK.git`
 
 Install dependencies:
 

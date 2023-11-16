@@ -1,49 +1,54 @@
-# Note_app-FLASK
+# Note App with Flask
 
-This repository contains a simple notes app created using Flask, Jinja, HTML and SQLAlchemy. The app allows users to:
+This repository contains a simple notes app created using Flask, Jinja, HTML, and SQLAlchemy. It enables users to manage their notes with ease.
+## Features
 
-      Create accounts
-      Log in
-      Create and delete multiple notes
+    User registration and login
+    Create and delete multiple notes
+    Store notes securely in a database
 
 ## Project Structure
 
-    main.py: Entry point for the application. Run this file to start the website.
+    main.py: The entry point for the application. Run this file to start the website.
 
     website folder:
 
         auth.py: Manages user authentication and user-related functionalities.
-
         views.py: Contains the logic for each page of the website and controls their functionality.
-
         models.py: Defines and organizes the database. The database is managed and created using SQLAlchemy.
-
         __init__.py: Brings all the Python files together to set up the Flask application, which is later executed via main.py.
 
-        static folder:
-            index.js: JavaScript file responsible for allowing users to delete created notes.
+    website/static folder:
 
-        template folder:
+        index.js: JavaScript file responsible for allowing users to delete created notes.
 
-            base.html: Acts as a template for other HTML files. Utilizes Jinja to interact with Flask.
+    website/templates folder:
 
-            Other HTML files: Each file represents a page of the website and extends the base.html template.
+        base.html: Acts as a template for other HTML files. Utilizes Jinja to interact with Flask.
+        Other HTML files: Each file represents a page of the website and extends the base.html template.
 
-How to Run
+## Installation and Usage
 
-    Clone the repository:
+  ####  Clone the repository:
 
+        git clone https://github.com/your-username/Note_app-FLASK.git
 
-`git clone https://github.com/your-username/Note_app-FLASK.git`
+Navigate to the project directory:
+
+bash
+
+cd Note_app-FLASK
 
 Install dependencies:
 
 bash
 
-pip install -r requirements.txt
+pipenv install
 
 Run the application:
 
 bash
 
-python main.py
+    pipenv run flask run
+
+Use the code with caution. Learn more.

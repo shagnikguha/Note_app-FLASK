@@ -34,4 +34,4 @@ This repository contains a simple notes app created using Flask, Jinja, HTML, an
   
         python3 main.py
 
-  Ensure that you are in the proper working directory
+  Ensure that you are in the proper working directory when running these commands.
